@@ -11,10 +11,20 @@
   <script>
     // Code One
     /*
+    This code will not work because the compiler runs line by line
+    It will not be able to recognize the element "el"
+    Because it read the JavaScript code before reading the element
+    As for the other two codes, the compiler will read them,
+     because in the second code, 
+    it will read the code after loading the Windows page
+    and The third code is at the end of the body,
+     so it will read it after reading the element.
+
     هذا الكود لن يعمل لأن الكومبيلر يمشي سطر بسطر
-     ولن يستطيع التعرف على العنصر el
+     ولن يستطيع التعرف على العنصر "el"
     لأنه قرأ كود الجافاسكريبت قبل قراءة العنصر
-    أما الكودان الآخران فسيقرأهم الكومبايلر لأنه في الكود الثاني سيقرأ الكود بعد تحميل صفحة الويندوز 
+    أما الكودان الآخران فسيقرأهم الكومبايلر
+    لأنه في الكود الثاني سيقرأ الكود بعد تحميل صفحة الويندوز 
     والكود الثالث قرأه بعد قراءة العنصر
     */
     document.getElementById("el").style.color = "red";
