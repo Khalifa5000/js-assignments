@@ -16,3 +16,12 @@ console.log(`${numberTwo}\n${numberOne}`);
 console.log(elzero.innerHTML); // object
 console.log(typeof elzero); // object
 
+
+// التكليف 3
+
+console.log(`I'm In
+\\\\
+Love \\\\ \"\"\" \'\'\'
+\+\+ With \+\+
+\\\"\"\"\\\"\"\"
+\"\"JavaScript\"\"\`\``);
