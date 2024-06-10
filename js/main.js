@@ -32,3 +32,17 @@ console.log("message two");
 
 // التكليف 5
 
+console.table(["Elzero", "Ahmed", "Sameh", "Gamal", "Aya"]);
+
+
+// التكليف 6
+
+
+// console.log("Iam In Console");
+// document.write("Iam In Page");
+
+
+/*
+console.log("Iam In Console");
+document.write("Iam In Page");
+*/
