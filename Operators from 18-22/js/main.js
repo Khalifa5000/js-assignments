@@ -48,3 +48,20 @@ console.log( (+num % num ) + +num + +num); // 20
 console.log( +num + (+num  %  +num) * +num / +num + +num ); // 20
 
 
+
+// التكليف 4
+
+let points = 10;
+
+points = ++points + ++points / points + true
+
+console.log(points); // 13
+
+// Write Your Code Here
+
+
+points = ++points * points / (points + points) + true
+
+console.log(points); // 8;
+
+
